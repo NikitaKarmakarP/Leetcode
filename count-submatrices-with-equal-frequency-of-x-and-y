@@ -1,0 +1,23 @@
+class Solution:
+    def numberOfSubmatrices(self, grid: List[List[str]]) -> int:
+        m = len(grid)
+        n = len(grid[0])
+        x_col_sum = [0]*n
+        y_col_sum = [0]*n
+        ct = 0
+        for i in range(m):
+            curx = 0
+            cury = 0
+            for j in range(n):
+                if grid[i][j]=="X":
+                    x_col_sum[j]+=1
+                if grid[i][j]=="Y":
+                    y_col_sum[j]+=1
+                curx += x_col_sum[j]
+                cury += y_col_sum[j]
+                if curx==cury and curx>0:
+                    ct+=1
+        
+        return ct
+
+        
