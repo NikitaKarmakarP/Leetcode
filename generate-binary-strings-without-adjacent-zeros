@@ -1,0 +1,31 @@
+//           //////////////////ATISHAY\\\\\\\\\\\\\\\\           \\
+//           \\\\\\\\\\\\\\\\\\\JAIN//////////////////           \\
+class Solution {
+    char one = '1';
+    char zero = '0';
+    boolean flag=false;
+    List<String> ans = new ArrayList<>();
+    StringBuilder subans = new StringBuilder("");
+    public void genbin(int n, int i){
+        if(subans.length()==n){
+            ans.add(subans.toString());
+            return;
+        }
+
+        if(flag==true || i==0){
+            subans.append(zero);
+            flag=false;
+            genbin(n, i+1);
+            subans.deleteCharAt(subans.length()-1);
+        }
+
+        flag=true;
+        subans.append(one);
+        genbin(n, i+1);
+        subans.deleteCharAt(subans.length()-1);
+    }
+    public List<String> validStrings(int n) {
+        genbin(n, 0);
+        return ans;
+    }
+}
