@@ -1,0 +1,19 @@
+class Solution {
+public:
+    long long countSubarrays(vector<int>& nums, int k) {
+        map<int, int> prev;
+        int n = nums.size();
+        long long cnt = 0;
+        for (int num : nums){
+            map<int, int> cur;
+            for (auto [key, v] : prev)
+                cur[key & num] += v;
+            cur[num]++;
+
+            cnt += cur[k];
+
+            prev = cur;
+        }
+        return cnt;
+    }
+};
