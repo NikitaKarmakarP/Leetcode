@@ -1,0 +1,40 @@
+class Solution {
+public:
+
+    long long numberOfRightTriangles(vector<vector<int>>& grid) {
+        int n = grid.size();
+        int m = grid[0].size();
+
+        vector<int>inRows(n);
+        vector<int>inCols(m);
+
+        for(int i=0; i<n; i++){
+            int cnt = 0;
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1) cnt++;
+            }
+            inRows[i] = cnt;
+        }
+        for(int j=0; j<m; j++){
+            int cnt = 0;
+            for(int i=0; i<n; i++){
+                if(grid[i][j] == 1) cnt++;
+            }
+            inCols[j] = cnt;
+        }
+
+        long long ans = 0;
+
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1){
+                    ans += ((inRows[i]-1) * (inCols[j]-1));
+                }
+            }
+        }
+
+        return ans;
+
+
+    }
+};
