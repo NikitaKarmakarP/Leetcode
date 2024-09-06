@@ -1,0 +1,19 @@
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        
+        ListNode temp = head; // Initialize the pointer to traverse the list
+        
+        while (temp.next != null) { // Continue until the end of the list
+            if (temp.val == temp.next.val) { // Check if current node is a duplicate
+                temp.next = temp.next.next; // Skip the duplicate node
+            } else {
+                temp = temp.next; // Move to the next node
+            }
+        }
+        
+        return head; // Return the modified list
+    }
+}
