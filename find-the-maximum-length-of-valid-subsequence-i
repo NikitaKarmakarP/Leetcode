@@ -1,0 +1,64 @@
+class Solution {
+public:
+    
+    int sameParity(vector<int>& nums){
+        int n = nums.size();
+        
+		// longest subsequence if previous and current term are even
+        vector<int> even(n, 0);
+        if(nums[0] %2 == 0) even[0] = 1;
+        
+        for(int i=1;i<n;i++){
+            int val = nums[i];
+            
+            if(val%2 == 1){
+                even[i] = even[i-1];
+            }else{
+                even[i] = even[i-1]+1;
+            }
+        }
+        
+		// longest subsequence if previous and current term are odd
+        vector<int> odd(n, 0);
+        if(nums[0] %2 == 1) odd[0] = 1;
+        
+        for(int i=1;i<n;i++){
+            int val = nums[i];
+            if(val%2 == 0){
+                odd[i] = odd[i-1];
+            }else{
+                odd[i] = odd[i-1]+1;
+            }
+        }
+        
+        return max(even[n-1], odd[n-1]);
+    }
+    
+    int alternatingParity(vector<int>& nums){
+        int n = nums.size();
+        
+        vector<int> even(n, 0); // longest subsequence if previous is odd and current is even
+		vector<int> odd(n, 0); // longest subsequence if previous is even and current is odd
+        
+        if(nums[0] %2 == 0) even[0] = 1;
+        if(nums[0] %2 == 1) odd[0] = 1;
+        
+        for(int i=1;i<n;i++){
+            int val = nums[i];
+            
+            if(val%2 == 0){
+                even[i] = 1 + odd[i-1];
+                odd[i] = odd[i-1];
+            }else{
+                odd[i] = 1 + even[i-1];
+                even[i] = even[i-1];
+            }
+        }
+        
+        return max(even[n-1], odd[n-1]);
+    }
+    
+    int maximumLength(vector<int>& nums) {
+        return max(sameParity(nums), alternatingParity(nums));
+    }
+};
