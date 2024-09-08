@@ -1,0 +1,56 @@
+# from bisect import insort
+# from collections import defaultdict
+# from itertools import count
+
+class UnionFind:
+    def __init__(self, n) -> None:
+        self.parent = [i for i in range(n)] # parent of each group
+        self.grpCnt = n  # total groups 
+    
+    def find(self, x):
+        while x != self.parent[x]:
+            x = self.parent[x]
+        return x
+
+    def union(self, x, y):
+        pre_x = self.find(x)
+        pre_y = self.find(y)
+        if pre_x != pre_y: # if not merged already 
+            # Surely the first [x] would be the lead of group based on first come first serve
+            self.parent[pre_y] = pre_x 
+            self.grpCnt -= 1
+
+class Solution:
+    def accountsMerge(self, accounts:  List[List[str]]) -> List[List[str]]:
+        emailToAcc = {}  # email -> account_idx
+        uf = UnionFind(len(accounts))
+
+        for idx, account in enumerate(accounts):
+            for email in account[1:]:
+                if email in emailToAcc:
+                    # Already account registered in some group
+                    rootGrpId = emailToAcc[email]
+                    uf.union(rootGrpId, idx)   # club current account to registered group
+                else:
+                    # Account not registered yet
+                    emailToAcc[email] = idx
+        
+        # Now the Accounts info is clubbed
+
+        # counter mechanism to find the pos of unique grp in result list
+        cntr = count()
+        grpToPos = defaultdict(cntr.__next__)
+        merged = [[] for _ in range(uf.grpCnt)]
+
+        # Combine all emails to specific group
+        for email, accId in emailToAcc.items():
+            grpId = uf.find(accId)  # this [accId] belongs to which grp ?
+            pos = grpToPos[grpId]
+            insort(merged[pos], email)  # Insertion Sort to maintain order
+
+        # Add name at the start of each merged result
+        for accId, mergePos in grpToPos.items():
+            name = accounts[accId][0]
+            merged[mergePos].insert(0, name)
+
+        return merged
