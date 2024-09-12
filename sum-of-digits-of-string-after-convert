@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int getLucky(string s, int k) {
+        
+        string transform = "";
+        for(int i = 0; i < s.size(); i++) transform += (to_string(s[i] - 'a' + 1));
+
+        int sum = 0;
+        for(int i = 1; i <= k; i++) {
+            sum = 0;
+            for(auto it: transform) sum += (it - '0');
+            transform = to_string(sum);
+        }
+        return sum;
+    }
+};
