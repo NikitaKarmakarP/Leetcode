@@ -1,0 +1,17 @@
+func subsetXORSum(nums []int) int {
+    n := len(nums)
+    bitSize := 1 << n
+    res := 0
+
+    for i := 0; i < bitSize; i++ {
+        curr := 0
+        for j := 0; j < n; j++ {
+            if i&(1<<j) != 0 {
+                curr ^= nums[j]
+            }
+        }
+        res += curr
+    }
+
+    return res
+}
