@@ -1,0 +1,20 @@
+class Solution:
+    def singleNumber(self, nums: List[int]) -> List[int]:
+        # Step 1: XOR all numbers to get the XOR of the two unique numbers
+        xor_all = 0
+        for num in nums:
+            xor_all ^= num
+        
+        # Step 2: Find a distinguishing bit (rightmost set bit in xor_all)
+        distinguishing_bit = xor_all & -xor_all
+        
+        # Step 3: Partition numbers into two groups and XOR each group
+        unique1 = 0
+        unique2 = 0
+        for num in nums:
+            if num & distinguishing_bit:
+                unique1 ^= num
+            else:
+                unique2 ^= num
+        
+        return [unique1, unique2]
