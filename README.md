@@ -35,9 +35,9 @@
 30. design-a-stack-with-increment-operation(30th sep)
 
 # POTD of Novenbar
-1.Delete-characters-to-make-fancy-string(1st nov)
-2.Circular Sentance(2nd nov)
-3.Rotate String(3rd nov)
-4.String Comparisson-III(4th nov)
-5.minimum-number-of-changes-to-make-binary-string-beautiful(5th nov)
-6.Find if array can be sorted(6th nov)
+1. Delete-characters-to-make-fancy-string(1st nov)
+2. Circular Sentance(2nd nov)
+3. Rotate String(3rd nov)
+4. String Comparisson-III(4th nov)
+5. Minimum-number-of-changes-to-make-binary-string-beautiful(5th nov)
+6. Find if array can be sorted(6th nov)
