@@ -33,6 +33,7 @@
 28. Design circular Deque(28th sep)
 29. all-oone-data-structure(29th sep)
 30. design-a-stack-with-increment-operation(30th sep)
+
 # POTD of Novenbar
 1.Delete-characters-to-make-fancy-string(1st nov)
 2.Circular Sentance(2nd nov)
