@@ -67,7 +67,7 @@
 30. Minimum Number of Removals to Make Mountain Array(30th oct)
 31. Minimum Total Distance Traveled(31th oct)
 
-# POTD of Novenbar
+# POTD of Novembar
 1. Delete-characters-to-make-fancy-string(1st nov)
 2. Circular Sentance(2nd nov)
 3. Rotate String(3rd nov)
