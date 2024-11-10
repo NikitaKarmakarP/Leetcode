@@ -77,3 +77,4 @@
 7. largest-combination-with-bitwise-and-greater-than-zero(7th nov)
 8. Maximum XOR for each array(8th nov)
 9. minimum-array-end(9th nov)
+10. shortest-subarray-with-or-at-least-k-ii(10th nov)
