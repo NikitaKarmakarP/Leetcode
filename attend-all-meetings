@@ -1,0 +1,19 @@
+#include <vector>
+#include <algorithm>
+
+class Solution {
+public:
+    bool canAttend(std::vector<std::vector<int>> &arr) {
+        // Sort meetings by starting time
+        std::sort(arr.begin(), arr.end());
+
+        // Check for overlapping meetings
+        for (int i = 1; i < arr.size(); i++) {
+            // If a meeting starts before the previous meeting ends, return false
+            if (arr[i][0] < arr[i - 1][1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
