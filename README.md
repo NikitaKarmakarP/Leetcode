@@ -79,4 +79,4 @@
 9. minimum-array-end(9th nov)
 10. shortest-subarray-with-or-at-least-k-ii(10th nov)
 11. prime-subtraction-operation(11th nov)
-12. attend-all-meetings(12th nov)
+12. most-beautiful-item-for-each-query(12th nov)
