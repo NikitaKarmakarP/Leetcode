@@ -82,4 +82,4 @@
 12. most-beautiful-item-for-each-query(12th nov)
 13. count-the-number-of-fair-pairs(13th nov)
 14. minimized-maximum-of-products-distributed-to-any-store(14th nov)
-15. find-the-power-of-k-size-subarrays-i(15th nov)
+15. find-the-power-of-k-size-subarrays-i(16th nov)
