@@ -82,4 +82,6 @@
 12. most-beautiful-item-for-each-query(12th nov)
 13. count-the-number-of-fair-pairs(13th nov)
 14. minimized-maximum-of-products-distributed-to-any-store(14th nov)
-15. find-the-power-of-k-size-subarrays-i(16th nov)
+15. shortest-subarray-to-be-removed-to-make-array-sorted(15th nov)
+16. find-the-power-of-k-size-subarrays-i(16th nov)
+17. shortest-subarray-with-sum-at-least-k(17th nov)
