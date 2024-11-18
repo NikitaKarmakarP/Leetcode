@@ -85,3 +85,4 @@
 15. shortest-subarray-to-be-removed-to-make-array-sorted(15th nov)
 16. find-the-power-of-k-size-subarrays-i(16th nov)
 17. shortest-subarray-with-sum-at-least-k(17th nov)
+18. defuse the bomb(18th nov)
