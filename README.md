@@ -86,3 +86,4 @@
 16. find-the-power-of-k-size-subarrays-i(16th nov)
 17. shortest-subarray-with-sum-at-least-k(17th nov)
 18. defuse the bomb(18th nov)
+19. maximum-sum-of-distinct-subarrays-with-length-k(19th nov)
