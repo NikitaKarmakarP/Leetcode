@@ -87,3 +87,4 @@
 17. shortest-subarray-with-sum-at-least-k(17th nov)
 18. defuse the bomb(18th nov)
 19. maximum-sum-of-distinct-subarrays-with-length-k(19th nov)
+20. take-k-of-each-character-from-left-and-right(20th nov)
