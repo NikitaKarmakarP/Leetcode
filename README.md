@@ -90,3 +90,4 @@
 20. take-k-of-each-character-from-left-and-right(20th nov)
 21. count-unguarded-cells-in-the-grid(21th nov)
 22. Flip Columns For Maximum Number of Equal Rows(22nd nov)
+23. Rotating the Box(23rd nov)
