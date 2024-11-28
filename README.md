@@ -95,4 +95,4 @@
 25. Sliding Puzzle(25th nov)
 26. Find Champion II(26th nov)
 27. Shortest Distance After Road Addition Queries(27th nov)
-28. Minimum Obstacle Removal to Reach Corner(29th nov)
+28. Minimum Obstacle Removal to Reach Corner(28th nov)
