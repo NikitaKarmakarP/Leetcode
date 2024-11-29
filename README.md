@@ -96,3 +96,4 @@
 26. Find Champion II(26th nov)
 27. Shortest Distance After Road Addition Queries(27th nov)
 28. Minimum Obstacle Removal to Reach Corner(28th nov)
+29. Minimum Time to Visit a Cell In a Grid(29th nov)
