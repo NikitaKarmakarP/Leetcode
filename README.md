@@ -2,7 +2,7 @@
 # This is my leetcode repository where I upload my all code which I solve in leetcode. Stay connect With me.
 # You can also check this profile"https://codolio.com/profile/AKJs1Dnb"
 # POTD:
-# POTD of Sempembar
+# POTD of Sempembar (2024)
 1. Convert 1D array to 2D array(1st sep)
 2. Find the student that will replace the chalk(2nd sep)
 3. sum-of-digits-of-string-after-convert(3rd sep)
@@ -34,7 +34,7 @@
 29. all-oone-data-structure(29th sep)
 30. design-a-stack-with-increment-operation(30th sep)
 
-# POTD of Octobar
+# POTD of Octobar (2024)
 1. check-if-array-pairs-are-divisible-by-k(1st oct)
 2. Rank Transform of an Array(2nd oct)
 3. Make Sum divisable by P(3rd oct)
@@ -67,7 +67,7 @@
 30. Minimum Number of Removals to Make Mountain Array(30th oct)
 31. Minimum Total Distance Traveled(31th oct)
 
-# POTD of Novembar
+# POTD of Novembar (2024)
 1. Delete-characters-to-make-fancy-string(1st nov)
 2. Circular Sentance(2nd nov)
 3. Rotate String(3rd nov)
@@ -99,7 +99,9 @@
 29. Minimum Time to Visit a Cell In a Grid(29th nov)
 30. Valid Arrangement of Pairs(30th nov)
 
-# POTD of December
+# POTD of December (2024)
+1. 
+
 
 
 
