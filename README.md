@@ -100,7 +100,7 @@
 30. Valid Arrangement of Pairs(30th nov)
 
 # POTD of December (2024)
-1. 
+1. Check If N and Its Double Exist
 
 
 
