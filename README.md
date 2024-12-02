@@ -100,7 +100,9 @@
 30. Valid Arrangement of Pairs(30th nov)
 
 # POTD of December (2024)
-1. Check If N and Its Double Exist
+1. Check If N and Its Double Exist(1st dec)
+2. Check If a Word Occurs As a Prefix of Any Word in a Sentence(2nd dec)
+
 
 
 
