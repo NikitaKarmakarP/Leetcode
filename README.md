@@ -103,6 +103,7 @@
 1. Check If N and Its Double Exist(1st dec)
 2. Check If a Word Occurs As a Prefix of Any Word in a Sentence(2nd dec)
 3. Adding Spaces to a String(3rd dec)
+4. Make String a Subsequence Using Cyclic Increments(4th dec)
 
 
 
