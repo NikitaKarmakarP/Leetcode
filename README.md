@@ -104,6 +104,7 @@
 2. Check If a Word Occurs As a Prefix of Any Word in a Sentence(2nd dec)
 3. Adding Spaces to a String(3rd dec)
 4. Make String a Subsequence Using Cyclic Increments(4th dec)
+5. Move Pieces to Obtain a String(5th dec)
 
 
 
