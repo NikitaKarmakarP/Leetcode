@@ -105,7 +105,7 @@
 3. Adding Spaces to a String(3rd dec)
 4. Make String a Subsequence Using Cyclic Increments(4th dec)
 5. Move Pieces to Obtain a String(5th dec)
-6. Maximum Number of Integers to Choose From a Range(6th dec) I
+6. Maximum Number of Integers to Choose From a Range(6th dec) 
 
 
 
