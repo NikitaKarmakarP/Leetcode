@@ -107,3 +107,5 @@
 5. Move Pieces to Obtain a String(5th dec)
 6. Maximum Number of Integers to Choose From a Range(6th dec)
 7. Minimum Limit of Balls in a Bag(7th dec)
+8. Two Best Non-Overlapping Events(8th dec)
+9. Special Array II(9th dec)
