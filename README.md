@@ -1,8 +1,27 @@
-# Leetcode
-# This is my leetcode repository where I upload my all code which I solve in leetcode. Stay connect With me.
+# Leetcode Solutions: My Coding Journey  
+
+Welcome to my **Leetcode Solutions Repository**! This project is a curated collection of solutions to algorithmic challenges, showcasing my approach to problem-solving and continuous learning. 
+
 # You can also check this profile"https://codolio.com/profile/AKJs1Dnb"
-# POTD:
-# POTD of Sempembar (2024)
+
+## About This Repository  
+
+This repository serves as:  
+- A **personal archive** of solved Leetcode problems.  
+- A resource for **reviewing problem-solving techniques**.  
+- A platform to **track progress and growth** over time.  
+
+## Highlights  
+
+### 🗂️ Organized Solutions  
+- **By Difficulty**: Easy, Medium, Hard.  
+- **By Topics**: Arrays, Trees, Dynamic Programming, Graphs, and more.  
+
+### 🌟 Notable Achievements  
+- Tackled several **Problem of the Day (POTD)** challenges.  
+- Completed solutions in multiple programming languages, including Python, C++, and JavaScript.  
+
+## POTD (Problem of the Day): September 2024
 1. Convert 1D array to 2D array(1st sep)
 2. Find the student that will replace the chalk(2nd sep)
 3. sum-of-digits-of-string-after-convert(3rd sep)
@@ -34,7 +53,7 @@
 29. all-oone-data-structure(29th sep)
 30. design-a-stack-with-increment-operation(30th sep)
 
-# POTD of Octobar (2024)
+## POTD (Problem of the Day): Octobar 2024
 1. check-if-array-pairs-are-divisible-by-k(1st oct)
 2. Rank Transform of an Array(2nd oct)
 3. Make Sum divisable by P(3rd oct)
@@ -67,7 +86,7 @@
 30. Minimum Number of Removals to Make Mountain Array(30th oct)
 31. Minimum Total Distance Traveled(31th oct)
 
-# POTD of Novembar (2024)
+## POTD (Problem of the Day): November 2024
 1. Delete-characters-to-make-fancy-string(1st nov)
 2. Circular Sentance(2nd nov)
 3. Rotate String(3rd nov)
@@ -99,7 +118,7 @@
 29. Minimum Time to Visit a Cell In a Grid(29th nov)
 30. Valid Arrangement of Pairs(30th nov)
 
-# POTD of December (2024)
+## POTD (Problem of the Day): December 2024
 1. Check If N and Its Double Exist(1st dec)
 2. Check If a Word Occurs As a Prefix of Any Word in a Sentence(2nd dec)
 3. Adding Spaces to a String(3rd dec)
@@ -111,3 +130,28 @@
 9. Special Array II(9th dec)
 10. Find Longest Special Substring That Occurs Thrice I(10th dec)
 11. Maximum Beauty of an Array After Applying Operation(11th dec)
+
+## How to Explore  
+
+1. Browse through the repository structure to find problems by name or category.  
+2. Review solution files for detailed implementation and comments.  
+3. Use the repository as a reference for learning and revision.  
+
+## About Me  
+
+**I am a passionate coder and lifelong learner who enjoys solving algorithmic problems and sharing knowledge. Through this repository, I aim to grow my skills and contribute to the developer community.** 
+
+📬 Feel free to connect with me for discussions and collaborations!
+
+## Stay Connected  
+
+- **LinkedIn**: www.linkedin.com/in/nikita-karmakar-31336a270
+- **Email**: nikitakarmakar831@gmail.com 
+- **GitHub Profile**: https://github.com/NikitaKarmakarP
+
+## Happy Coding!  
+Thank you for visiting this repository. Let’s solve problems and grow together! 🚀
+x
+
+
+
