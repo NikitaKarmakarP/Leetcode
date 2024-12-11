@@ -110,3 +110,4 @@
 8. Two Best Non-Overlapping Events(8th dec)
 9. Special Array II(9th dec)
 10. Find Longest Special Substring That Occurs Thrice I(10th dec)
+11. Maximum Beauty of an Array After Applying Operation(11th dec)
