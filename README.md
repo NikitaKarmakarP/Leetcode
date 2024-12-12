@@ -130,6 +130,7 @@ This repository serves as:
 9. Special Array II(9th dec)
 10. Find Longest Special Substring That Occurs Thrice I(10th dec)
 11. Maximum Beauty of an Array After Applying Operation(11th dec)
+12. Take Gifts From the Richest Pile(12th dec)
 
 ## How to Explore  
 
