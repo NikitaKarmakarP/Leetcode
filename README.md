@@ -131,6 +131,7 @@ This repository serves as:
 10. Find Longest Special Substring That Occurs Thrice I(10th dec)
 11. Maximum Beauty of an Array After Applying Operation(11th dec)
 12. Take Gifts From the Richest Pile(12th dec)
+13. Find Score of an Array After Marking All Elements(13th dec)
 
 ## How to Explore  
 
