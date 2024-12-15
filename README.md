@@ -133,6 +133,7 @@ This repository serves as:
 12. Take Gifts From the Richest Pile(12th dec)
 13. Find Score of an Array After Marking All Elements(13th dec)
 14. Continuous Subarrays
+15. Maximum Average Pass Ratio
 
 ## How to Explore  
 
