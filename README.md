@@ -132,8 +132,9 @@ This repository serves as:
 11. Maximum Beauty of an Array After Applying Operation(11th dec)
 12. Take Gifts From the Richest Pile(12th dec)
 13. Find Score of an Array After Marking All Elements(13th dec)
-14. Continuous Subarrays
-15. Maximum Average Pass Ratio
+14. Continuous Subarrays(14th dec)
+15. Maximum Average Pass Ratio(15th dec)
+16. Final Array State After K Multiplication Operations I(16th dec)
 
 ## How to Explore  
 
