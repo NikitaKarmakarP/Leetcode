@@ -137,6 +137,7 @@ This repository serves as:
 16. Final Array State After K Multiplication Operations I(16th dec)
 17. Construct String With Repeat Limit(17th dec)
 18. Final Prices With a Special Discount in a Shop(18th dec)
+19. Mac Chunks to make Sorted(19th dec)
 
 ## How to Explore  
 
