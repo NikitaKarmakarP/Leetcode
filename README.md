@@ -139,6 +139,7 @@ This repository serves as:
 18. Final Prices With a Special Discount in a Shop(18th dec)
 19. Mac Chunks to make Sorted(19th dec)
 20. Reverse Odd Levels of Binary Tree(20th dec)
+21. Maximum Number of K-Divisible Components(21th dec)
 
 ## How to Explore  
 
